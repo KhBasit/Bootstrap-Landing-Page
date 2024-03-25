@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  background-color: black;
+}
+/* .bg_1{
+    background-image: url("./Assets/bg_1.png");
+    height: 2500px;
+} */
+.nav_color{
+    background-color: #171825;
+}
+.logo{
+    height: 45px;
+    width: 40px;
+}
+.nav-item{
+    font-weight: 600;
+    font-size: 16px;
+}
+.nav-item a{
+    color: white;
+}
+.button_1{
+    background-image: linear-gradient( #1d5d91, #1d5d91, #182438);
+    width: 130px;
+    border-radius: 30px;
+    border: none;
+}
+.button_2{
+  border-radius: 30px;
+  border: 4px solid #1d5d91;
+  width: 170px;
+  height: 60px;
+}
+.button_3{
+  background-image: linear-gradient( #1d5d91, #1d5d91, #1d5d91, #182438, #182438);
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 14px;
+  border: none;
+}
+.h_class{
+  color: white;
+  margin-top: 130px;
+}
+.word_spacing{
+  word-spacing: 2px;
+  padding: 10px;
+}
+  .form-control {
+    outline:none !important;
+    box-shadow: none !important;
+  }
+  @media screen and (max-width:540px){
+    .centerOnMobile {
+      text-align:center
+    }
+  }
+  .line-under{
+    padding-bottom: 1px;
+    border: 0px;
+    border-bottom: 2px solid white;
+  }
+  .bordr{
+    border: 2px solid #1d5d91;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+  .boder{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #171825;
+  }
+  .cul ul li{
+      text-decoration: none;
+      display: flex;
+  }
+  .sectiontitle {
+    background-position: center;
+    /* margin: 30px 0 0px; */
+    text-align: center;
+    min-height: 20px;
+  }
+  .sectiontitle h2 {
+    font-size: 30px;
+    color: #222;
+    /* margin-bottom: 0px; */
+    /* padding-right: 10px; */
+    /* padding-left: 10px; */
+  }
+  .headerLine {
+    width: 160px;
+    /* height: 2px; */
+    display: inline-block;
+    background: #101F2E;
+  }
+  .projectFactsWrap{
+      display: flex;
+    /* margin-top: 30px; */
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  #projectFacts .fullWidth{
+    padding: 0;
+    width: 103%;
+    margin-left: -12px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  .projectFactsWrap .item{
+    width: 30%;
+    height: 100%;
+    padding: 30px 0px;
+    text-align: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  .projectFactsWrap .item:nth-child(1){
+    background: #171825
+  }
+  .projectFactsWrap .item:nth-child(2){
+    background: #171825
+  }
+  .projectFactsWrap .item:nth-child(3){
+    background: #171825
+  }
+  .projectFactsWrap .item:nth-child(4){
+    background: #171825
+  }
+  .projectFactsWrap .item p.number{
+    font-size: 40px;
+    padding: 0;
+    font-weight: bold;
+  }
+  .projectFactsWrap .item p{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    margin: 0;
+    padding: 10px;
+    font-family: 'Open Sans';
+  }
+  hr {
+    border-top: 2.5px solid rgb(255, 255, 255);
+  }
+  .imgha{
+    height: 70px;
+    width: 70px;
+  }
+  .hr_horizental{
+    background: #171825;
+    width: 55%;
+    border-radius: 22px;
+  }
+  .border-img{
+    border-right:1px solid white;
+    height:880px;
+    align-items: center;
+    display: flex;
+  }
+  #ul{
+    list-style-type: none; 
+  }
+  #ul li::before {
+    content: "\2022";
+    color: #0d6efded;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  .services_cards{
+    background-color: #171825;
+  }
+  .shape{
+    position: relative;
+    transform: translate(-90%, -40%);
+    left: 50%;
+    top: 45%;
+  }
+  .borderha{
+    border-radius: 15px;
+  }
+  .projectFactsWrap .item:hover span{
+    background: white;
+  }
+  @media (max-width: 786px){
+    .projectFactsWrap .item {
+       flex: 0 0 50%;
+    }
+  }
+  .vector_img{
+    width: 100%;
+    height: 400px;
+    transform: rotate(360deg)translate(-83%, -14%);
+    left: 60%;
+    /* top: 10%;  */
+    position: relative;
+  }
+  .vector_img_2{
+    width: 100%;
+    height: 400px;
+    transform: rotate(360deg)translate(-83%, -103%);
+    left: 60%;
+    /* top: 10%;  */
+    position: relative;
+  }
+  
